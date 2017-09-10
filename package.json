@@ -1,0 +1,22 @@
+{
+  "name": "playcanvas-attributes",
+  "version": "1.0.1",
+  "description": "Extends PlayCanvas attribute definitions to support a 'set' method, this also enables intellisense for PlayCanvas attributes in WebStorm and other IDEs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whydoidoit/playcanvas-attributes.git"
+  },
+  "keywords": [
+    "PlayCanvas"
+  ],
+  "author": "Mike Talbot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whydoidoit/playcanvas-attributes/issues"
+  },
+  "homepage": "https://github.com/whydoidoit/playcanvas-attributes#readme"
+}
