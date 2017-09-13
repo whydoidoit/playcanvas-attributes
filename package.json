@@ -1,6 +1,6 @@
 {
   "name": "playcanvas-attributes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extends PlayCanvas attribute definitions to support a 'set' method, this also enables intellisense for PlayCanvas attributes in WebStorm and other IDEs.",
   "main": "index.js",
   "scripts": {

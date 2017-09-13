@@ -16,6 +16,9 @@ function make(item) {
         if (x instanceof pc.Vec3) {
             x = [x.x, x.y, x.z]
         }
+        if(x instanceof pc.Color) {
+            x: [x.r, x.g, x.b, x.a]
+        }
         if (y) {
             x = [x || 0, +y, z || 0]
         }
@@ -92,6 +95,12 @@ const types = {
     curveSet: function () {
         return {type: 'curveSet'}
     },
+    rgb: function() {
+        return {type: 'rgb'}
+    },
+    rgba: function() {
+        return {type: 'rgba'}
+    }
 
 }
 
